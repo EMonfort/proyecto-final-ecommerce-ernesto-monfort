@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz & Raíz</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a9aa98d71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo de Luz y Raíz, decoración artesanal de interiores" width="60" height="40">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="video-container">
+            <div class="responsive-iframe">
+                <iframe width="655" height="369" src="https://www.youtube.com/embed/gcxNiBEDmA0" title="TENDENCIAS 2025 👉🏽 DECORACIÓN DE INTERIORES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="img/productos/macetas.webp" alt="Maceta artesanal">
+                    </div>
+                    <h3>Maceta artesanal</h3>
+                    <p>$3.200</p>
+                </div>
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="img/productos/centro-de-mesa.webp" alt="Centro de mesa">
+                    </div>
+                    <h3>Centro de mesa</h3>
+                    <p>$4.500</p>
+                </div>
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="img/productos/portallaves.webp" alt="Portallaves con estante">
+                    </div>
+                    <h3>Portallaves con estante</h3>
+                    <p>$2.800</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+
+        <section id="resenias">
+            <h2>Reseñas</h2>
+            <div class="resenias-container">
+                <div class="card">
+                    <p>"Excelente calidad y atención. Las macetas son hermosas."</p>
+                    <h4>— Mariana R.</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>"Me encantaron los centros de mesa. Volveré a comprar sin dudas."</p>
+                    <h4>— Pablo G.</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>"Muy buena experiencia. Entrega rápida y productos únicos."</p>
+                    <h4>— Laura F.</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <p>&copy; 2025 Luz & Raíz - Todos los derechos reservados</p>
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://pinterest.com" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        <a href="mailto:contacto@luzyraiz.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+</footer>
+</body>
+</html>
