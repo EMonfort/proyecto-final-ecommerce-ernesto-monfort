@@ -6,8 +6,10 @@ const productos = {
 
 const carrito = {}
 function manejarClicComprar(evento) {
-    const productoId = evento.target.dataset.id;
-    agregarProductoAlCarrito(productoId);
+    if (evento.target.classList.contains("btn-comprar")) {
+        const productoId = evento.target.dataset.id;
+        agregarProductoAlCarrito(productoId);
+    }
 }
 
 
